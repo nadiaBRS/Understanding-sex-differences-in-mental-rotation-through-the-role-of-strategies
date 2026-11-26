@@ -14,7 +14,7 @@ getwd()
 
 setwd("~/Library/Mobile Documents/com~apple~CloudDocs/SISSA/R/MRlibrary-master/datasets")
 data <- read.delim("~/Library/Mobile Documents/com~apple~CloudDocs/SISSA/R/MRlibrary-master/datasets/MR_beh_filtsubs2.txt",header = T)
-
+EXCLUDE_IDS <- c(33, 50)
 
 library(data.table)
 
